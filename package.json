@@ -1,0 +1,44 @@
+{
+  "name": "slothy",
+  "version": "1.0.0",
+  "description": "Modern lazy loading of images (445 Bytes gzipped)",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/tiaanduplessis/slothy",
+    "type": "git"
+  },
+  "homepage": "https://github.com/tiaanduplessis/slothy",
+  "bugs": "https://github.com/tiaanduplessis/slothy",
+  "main": "dist/slothy.js",
+  "browser": "dist/slothy.js",
+  "jsnext:main": "dist/slothy.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "format": "prettier-standard 'src/**/*.js'",
+    "build": "bili",
+    "start": "npm run test",
+    "precommit": "npm test",
+    "prepublish": "npm run build",
+    "pretest": "npm run format",
+    "docs": "documentation readme src/index.js --section=API"
+  },
+  "author": "tiaanduplessis <tiaanduplessis@hotmail.com>",
+  "babel": {
+    "presets": [
+      [
+        "env"
+      ]
+    ]
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.0",
+    "bili": "^0.17.4",
+    "documentation": "^5.2.1",
+    "husky": "^0.14.3",
+    "jest": "^20.0.4",
+    "prettier-standard": "^6.0.0"
+  }
+}

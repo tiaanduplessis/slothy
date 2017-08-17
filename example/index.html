@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>slothy - example</title>
+  <style>
+    img {
+      width: 100%;
+      margin-bottom: 900px;
+    }
+  </style>
+</head>
+
+<body>
+  <img data-slothy="http://loremflickr.com/1600/1200" alt="">
+  <img data-slothy="http://loremflickr.com/1200/1000" alt="">
+  <img data-slothy="http://loremflickr.com/2000/1500" alt="">
+  <img data-slothy="http://loremflickr.com/3000/1600" alt="">
+  <img data-slothy="http://loremflickr.com/1000/1200" alt="">
+  <img data-slothy="http://loremflickr.com/1900/1400" alt="">
+  <img data-slothy="http://loremflickr.com/1500/1000" alt="">
+  <img data-slothy="http://loremflickr.com/2300/1800" alt="">
+  <img data-slothy="http://loremflickr.com/1700/1200" alt="">
+  <img data-slothy="http://loremflickr.com/1900/1200" alt="">
+  <img data-slothy="http://loremflickr.com/1000/800" alt="">
+  <script src="../dist/slothy.js"></script>
+  <script>
+    slothy({
+      offset: 300,
+      onLoad: function (image) {
+        alert(image.src + ' loaded!')
+      }
+    })
+  </script>
+</body>
+
+</html>
