@@ -94,7 +94,7 @@ Then initialize:
 slothy()
 ```
 
-Also see the [example](example/html).
+Also see the [example](example/index.html).
 
 ## API
 
