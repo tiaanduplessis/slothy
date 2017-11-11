@@ -58,6 +58,8 @@
 
 ## About
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/slothy.svg)](https://greenkeeper.io/)
+
 Slothy uses the [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) to ensure the efficient loading of images as they come into view. Since the API is [fairly new](https://caniuse.com/#search=IntersectionObserver), you may want to use [the polyfill](https://github.com/WICG/IntersectionObserver/tree/gh-pages/polyfill) if your targeting older browsers. If [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) is not available slothy will fall back to the normal loading of images.
 
 ## Install
