@@ -9,23 +9,20 @@
   },
   "homepage": "https://github.com/tiaanduplessis/slothy",
   "bugs": "https://github.com/tiaanduplessis/slothy",
+  "source": "src/index.js",
   "main": "dist/slothy.js",
-  "browser": "dist/slothy.js",
-  "jsnext:main": "dist/slothy.es.js",
+  "browser": "dist/slothy.umd.js",
+  "module": "dist/slothy.m.js",
   "files": [
     "dist"
   ],
   "scripts": {
     "test": "jest",
-    "format": "prettier-standard 'src/**/*.js'",
-    "build": "bili",
-    "start": "npm run test",
-    "precommit": "npm test",
-    "prepublish": "npm run build",
-    "pretest": "npm run format",
+    "build": "microbundle",
+    "lint": "standard --fix src",
     "docs": "documentation readme src/index.js --section=API"
   },
-  "author": "tiaanduplessis <tiaanduplessis@hotmail.com>",
+  "author": "Tiaan du Plessis",
   "babel": {
     "presets": [
       [
@@ -34,11 +31,11 @@
     ]
   },
   "devDependencies": {
-    "babel-preset-env": "^1.6.0",
-    "bili": "^0.19.0",
+    "babel-preset-env": "^1.7.0",
     "documentation": "^7.0.0",
-    "husky": "^0.14.3",
-    "jest": "^22.0.0",
-    "prettier-standard": "^8.0.0"
+    "intersection-observer": "^0.5.0",
+    "jest": "^23.1.0",
+    "microbundle": "^0.4.4",
+    "standard": "^11.0.1"
   }
 }
