@@ -3,7 +3,7 @@
 </div>
 <h1 align="center">slothy</h1>
 <div align="center">
-  <strong>Modern lazy loading of images (445 Bytes gzipped)</strong>
+  <strong>Modern lazy loading of images (429 Bytes gzipped)</strong>
 </div>
 <br>
 <div align="center">
