@@ -3,7 +3,7 @@
 </div>
 <h1 align="center">slothy</h1>
 <div align="center">
-  <strong>Modern lazy loading of images (429 Bytes gzipped)</strong>
+  <strong>Modern lazy loading of images in under 500 bytes</strong>
 </div>
 <br>
 <div align="center">
@@ -28,6 +28,9 @@
   <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="make a pull request" />
   </a>
+  <a href="https://greenkeeper.io/">
+    <img src="hhttps://badges.greenkeeper.io/tiaanduplessis/slothy.svg" alt="Greenkeeper" />
+  </a>
 </div>
 
 <h2>Table of Contents</h2>
@@ -42,9 +45,7 @@
 
 ## About
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/slothy.svg)](https://greenkeeper.io/)
-
-Slothy uses the [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) to ensure the efficient loading of images as they come into view. Since the API is [fairly new](https://caniuse.com/#search=IntersectionObserver), you may want to use [the polyfill](https://github.com/w3c/IntersectionObserver/tree/master/polyfill) if your targeting older browsers. If [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) is not available slothy will fall back to the normal loading of images.
+Slothy uses the [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) to ensure the efficient loading of images as they come into view. Since the API is [fairly new](https://caniuse.com/#search=IntersectionObserver) so you may want to use [a polyfill](https://github.com/w3c/IntersectionObserver/tree/master/polyfill) if your targeting older browsers. If [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) is not available slothy will fall back to the normal loading of images.
 
 ## Install
 
