@@ -11,7 +11,7 @@
   "bugs": "https://github.com/tiaanduplessis/slothy",
   "source": "src/index.js",
   "main": "dist/slothy.js",
-  "browser": "dist/slothy.umd.js",
+  "umd:main": "dist/slothy.umd.js",
   "module": "dist/slothy.m.js",
   "files": [
     "dist"
@@ -32,10 +32,10 @@
   },
   "devDependencies": {
     "babel-preset-env": "^1.7.0",
-    "documentation": "^8.0.1",
-    "intersection-observer": "^0.5.0",
-    "jest": "^23.1.0",
-    "standard": "^12.0.0"
-    "microbundle": "^0.5.0"
+    "documentation": "^9.0.0",
+    "intersection-observer": "^0.5.1",
+    "jest": "^23.6.0",
+    "standard": "^12.0.1",
+    "microbundle": "^0.8.3"
   }
 }
