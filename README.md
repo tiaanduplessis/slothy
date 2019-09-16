@@ -60,9 +60,7 @@ $ yarn add slothy
 Or with CDN:
 
 ```html
-<script src="https://cdn.rawgit.com/tiaanduplessis/slothy/master/dist/slothy.umd.js"></script>
-<!-- Or -->
-<script src="https://unpkg.com/stoor/dist/slothy.umd.js"></script>
+<script src="https://unpkg.com/slothy@1.2.0/dist/slothy.umd.js"></script>
 ```
 
 ## Usage
