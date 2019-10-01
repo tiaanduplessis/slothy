@@ -34,7 +34,7 @@
     "babel-preset-env": "1.7.0",
     "documentation": "9.3.1",
     "intersection-observer": "0.5.1",
-    "jest": "23.6.0",
+    "jest": "24.9.0",
     "microbundle": "0.11.0",
     "standard": "14.3.1"
   }
